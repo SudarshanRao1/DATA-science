@@ -1,0 +1,23 @@
+/** – Implement a program that takes a user input and 
+prints whether the number is even or odd using if-else statements.*/
+
+class Felse{
+
+    constructor Felse new(){
+        return this;
+    }
+
+    function void logic(){
+        var int num;
+        let num = Keyboard.readInt("Enter a number: ");
+
+        if (num-((num/2)*2) = 0){
+            do Output.printString("the number is even");
+        }
+        else {
+            do Output.printString("the number is odd");
+        }       
+
+        return;
+    }
+}

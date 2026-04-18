@@ -1,0 +1,9 @@
+class Main{
+    function void main(){
+        var Myprint p1;
+        let p1 = Myprint.new(10,"sudarshan",20,"rao");
+        do p1.printer();
+        do Output.println();
+        return;
+    }
+}
