@@ -1,0 +1,24 @@
+/**  – Write a loop that prints numbers from 1 to 20, 
+and another loop that prints only even numbers.*/
+
+class Loop{
+    function void myloop(){
+        var int i;
+
+        let i = 1;
+        while (i < 20){
+            do Output.printInt(i);
+            do Output.println();
+            let i = i + 1;
+        }
+
+        let i = 2;
+        while (i < 20){
+            do Output.printInt(i);
+            do Output.println();
+            let i = i + 2;
+        }
+
+        return;
+    }
+}
